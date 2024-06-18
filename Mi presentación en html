@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hiam Talavera</h1>
+        <h2>Programador Junior</h2>
+        <h3>Correo: hiamtalavera18,ht@gmail.com</h3>
+        <h3>Direccion: Barrio San Miguel, Cambyreta</h3>
+        <h3>Celular: 0994618xxx</h3>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Acerca de mi</a>
+        <a href="#">Contactos</a>
+    </nav>
+
+    <section>
+        <h2>¡Acerca de mi!</h2>
+        <p>Como desarrollador web y programador junior, mezclo mi amor y gusto por la programacion y diseño de ambientes
+            graficos, me esfuerzo por explotar la creatividad y potencial de cada programa o pagina creable, dando todo
+            mi esfuerzo en cada linea de codigo, puliendo detalles y buscando superarme cada dia mas, buscando tanto
+            apps como sitos web agradables visualmente, sino funcionales, revolucionarios y con ideas creativas para que
+            el usuario pueda estar satisfecho al maximo con el servicio que se le da.</p>
+        <img src="https://png.pngtree.com/png-vector/20190613/ourmid/pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496223.jpg"
+            alt="Pequeña referencia creativa">
+    </section>
+    <section>
+        <h2>Mis habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>CSS</li>
+            <li>Arduino</li>
+
+        </ul>
+    </section>
+    <footer>
+        <p>Encarnacion 2024.</p>
+    </footer>
+
+</body>
+
+</html>

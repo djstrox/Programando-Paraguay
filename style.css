@@ -1,11 +1,15 @@
+h1.under {
+    text-decoration: underline;
+}
+
 h2 {
-    color: rgb(255, 255, 255);
+    color: #cfcbcf;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body {
-    background: #2d2d2e;
+    background: #111111;
     font-family: 'Montserrat', sans-serif;
     color: #cfcbcf;
     margin: 0;
@@ -14,8 +18,8 @@ body {
 }
 
 header {
-    background-color: #b9b9b9;
-    color: #000000;
+    background-color: #111111;
+    color: #cfcbcf;
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
@@ -38,8 +42,8 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #b9b9b9;
-    padding: 10px;
+    color: #cfcbcf;
+    padding: 0px;
     display: inline-block;
 }
 
@@ -84,59 +88,65 @@ section {
     padding: 0;
     margin: 0;
     text-align: center;
-}
 
-#Experiencia ul li {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-#Experiencia ul li strong {
-    font-weight: bold;
-    text-align: center;
-}
+    #Experiencia ul li {
+        margin-bottom: 10px;
+        text-align: center;
+    }
 
-#Proyectos ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
+    #Experiencia ul li strong {
+        font-weight: bold;
+        text-align: center;
+    }
 
-#Proyectos ul li a {
-    text-decoration: none;
-    color: #e7e7e7;
-    text-align: center;
-}
+    #Proyectos ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
 
-#Proyectos ul li a:hover {
-    text-decoration: underline;
-    text-align: center;
-}
+    #Proyectos ul li a {
+        text-decoration: none;
+        color: #e7e7e7;
+        text-align: center;
+    }
 
-#sociales {
-    list-style: none;
-    padding: 0;
-    margin-top: 10px;
-    text-align: center;
-}
+    #Proyectos ul li a:hover {
+        text-decoration: underline;
+        text-align: center;
+    }
 
-#sociales li {
-    list-style: none;
-    display: inline-block;
-    padding: 5px;
-    text-align: center;
-}
+    #sociales {
+        list-style: none;
+        padding: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
 
-.fa {
-    color: #c9c9c9;
-    text-decoration: none;
-    margin-left: 0px;
-}
+    #sociales li {
+        list-style: none;
+        display: inline-block;
+        padding: 5px;
+        text-align: center;
+    }
 
-footer {
-    background-color: #111111;
-    color: #e2e2e2;
-    text-align: center;
-    padding: 10px;
-}
+    .fa {
+        color: #c9c9c9;
+        text-decoration: none;
+        margin-left: 0px;
+    }
+
+    .fi {
+        color: #c9c9c9;
+        text-decoration: none;
+        margin-left: 0px;
+    }
+
+    footer {
+        background-color: #111111;
+        color: #e2e2e2;
+        text-align: center;
+        padding: 10px;
+    }

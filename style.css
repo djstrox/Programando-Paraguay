@@ -3,23 +3,66 @@ h1.under {
 }
 
 h2 {
-    color: #cfcbcf;
+    color: #111111;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 body {
-    background: #111111;
+    background: #c9c9c9;
     font-family: 'Montserrat', sans-serif;
-    color: #cfcbcf;
+    color: #111111;
     margin: 0;
     scroll-behavior: smooth;
     padding-top: 70px;
 }
 
+.navbar1 {
+    background-color: #6d6d6d;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: none;
+}
+
+
+.nav-links a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar.active .nav-links {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links a {
+        padding: 10px;
+    }
+}
+
 header {
-    background-color: #111111;
-    color: #cfcbcf;
+    background-color: #c9c9c9;
+    color: #111111;
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
@@ -34,6 +77,8 @@ h2 {
 }
 
 nav {
+    background-color: #7a7a7a;
+    overflow: hidden;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -42,13 +87,14 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #cfcbcf;
-    padding: 0px;
+    color: #111111;
+    padding: 14px 20px;
     display: inline-block;
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #ffffff;
+    color: black;
 }
 
 main {
@@ -56,97 +102,113 @@ main {
     margin: 0 auto;
 }
 
+
 section {
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #020202;
     margin-bottom: 20px;
     text-align: center;
 }
 
-#Acerca-de-mi p {
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.img {
+    max-width: 5%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.contenido {
+    max-width: 600px;
+    margin-bottom: 20px;
     text-align: justify;
-}
+    line-height: 1.6;
 
-#Mis-habilidades ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-#Mis-habilidades ul li {
-    display: inline-block;
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-right: 10px;
-    text-align: center;
-}
-
-#Experiencia ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-
-
-    #Experiencia ul li {
-        margin-bottom: 10px;
-        text-align: center;
+    #Acerca-de-mi p {
+        text-align: justify;
     }
 
-    #Experiencia ul li strong {
-        font-weight: bold;
-        text-align: center;
-    }
-
-    #Proyectos ul {
+    #Mis-habilidades ul {
         list-style: none;
         padding: 0;
         margin: 0;
         text-align: center;
     }
 
-    #Proyectos ul li a {
-        text-decoration: none;
-        color: #e7e7e7;
-        text-align: center;
-    }
-
-    #Proyectos ul li a:hover {
-        text-decoration: underline;
-        text-align: center;
-    }
-
-    #sociales {
-        list-style: none;
-        padding: 0;
-        margin-top: 10px;
-        text-align: center;
-    }
-
-    #sociales li {
-        list-style: none;
+    #Mis-habilidades ul li {
         display: inline-block;
         padding: 5px;
+        border: 1px solid #020202;
+        border-radius: 5px;
+        margin-right: 10px;
         text-align: center;
     }
 
-    .fa {
-        color: #c9c9c9;
-        text-decoration: none;
-        margin-left: 0px;
-    }
-
-    .fi {
-        color: #c9c9c9;
-        text-decoration: none;
-        margin-left: 0px;
-    }
-
-    footer {
-        background-color: #111111;
-        color: #e2e2e2;
+    #Experiencia ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
         text-align: center;
-        padding: 10px;
-    }
+
+
+        #Experiencia ul li {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        #Experiencia ul li strong {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #Proyectos ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        #Proyectos ul li a {
+            text-decoration: none;
+            color: #020202;
+            text-align: center;
+        }
+
+        #Proyectos ul li a:hover {
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        #sociales {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        #sociales li {
+            list-style: none;
+            display: inline-block;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .fa {
+            color: #111111;
+            text-decoration: none;
+            margin-left: 1px;
+        }
+
+
+        footer {
+            background-color: #c9c9c9;
+            color: #111111;
+            text-align: center;
+            padding: 10px;
+        }

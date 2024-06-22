@@ -27,7 +27,7 @@ body {
 }
 
 .menu-icon {
-    width: 30px;
+    width: 40px;
     cursor: pointer;
 }
 
@@ -66,6 +66,32 @@ header {
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+nav.circle ul a {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+nav.circle ul a:after {
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '.';
+    color: transparent;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    background: transparent;
+}
+
+nav.circle ul li a:hover:after {
+    -webkit-animation: circle 1.5s ease-in forwards;
 }
 
 h1 {
@@ -120,6 +146,31 @@ section {
 
 .img {
     max-width: 5%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.logos {
+    display: flex;
+    text-align: justify;
+    margin-top: 5px;
+    align-items: justify;
+}
+
+.img1 {
+    max-width: 12%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.img2 {
+    max-width: 6%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.img3 {
+    max-width: 4%;
     height: auto;
     margin-bottom: 10px;
 }
@@ -212,3 +263,4 @@ section {
             text-align: center;
             padding: 10px;
         }
+    }
